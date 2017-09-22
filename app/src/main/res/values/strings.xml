@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Areas y Volumenes</string>
+    <string name="opci">OPCIONES</string>
+    <string name="areas">AREAS</string>
+    <string name="volumenes">VOLUMENES</string>
+    <string name="numero">No.</string>
+    <string name="operacion">Operación</string>
+    <string name="datos">Datos</string>
+    <string name="resultado">Resultado</string>
+    <string name="operacionesRealizadas">OPERACIONES REALIZADAS</string>
+    <string name="cuadrado">Cuadrado</string>
+    <string name="rectangulo">Rectangulo</string>
+    <string name="triangulo">Triangulo</string>
+    <string name="circulo">Círculo</string>
+    <string-array name="opciones">
+        <item>@string/areas</item>
+        <item>@string/volumenes</item>
+    </string-array>
+    <string-array name="areas">
+        <item>@string/cuadrado</item>
+        <item>@string/rectangulo</item>
+        <item>@string/triangulo</item>
+        <item>@string/circulo</item>
+    </string-array>
+</resources>
