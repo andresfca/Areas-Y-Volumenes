@@ -121,7 +121,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Circulo" />
         </activity>
-        <activity android:name=".Resultado5"></activity>
+        <activity android:name=".Resultado5" />
+        <activity android:name=".Resultado6" />
+        <activity android:name=".Resultado7" />
+        <activity android:name=".Resultado8"></activity>
     </application>
 
 </manifest>

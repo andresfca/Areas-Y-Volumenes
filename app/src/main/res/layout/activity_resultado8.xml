@@ -23,7 +23,7 @@
             android:id="@+id/textView16"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/esfera"
+            android:text="@string/cubo"
             android:textAlignment="center"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -35,7 +35,7 @@
             android:paddingTop="20dp">
 
             <TextView
-                android:id="@+id/txtResultadoEsf"
+                android:id="@+id/txtResultadoCub"
                 android:layout_width="wrap_content"
                 android:layout_height="46dp"
                 android:layout_weight="1"

@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class Resultado5 extends AppCompatActivity {
+public class Resultado7 extends AppCompatActivity {
     private TextView enviado;
     private Bundle b;
     private String resultado, aux;
@@ -17,14 +17,14 @@ public class Resultado5 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_resultado5);
+        setContentView(R.layout.activity_resultado7);
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
 
-        enviado = (TextView)findViewById(R.id.txtResultadoEsf);
+        enviado = (TextView)findViewById(R.id.txtResultadoCon);
         b = getIntent().getExtras();
-        resultado = b.getString("ResultadoEsfera");
+        resultado = b.getString("ResultadoCono");
         resources = this.getResources();
 
         aux = resources.getString(R.string.volumen)+" "+resultado;
