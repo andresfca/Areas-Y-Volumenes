@@ -9,9 +9,9 @@
     <string name="resultado">Resultado</string>
     <string name="operacionesRealizadas">OPERACIONES REALIZADAS</string>
     <string name="cuadrado">CUADRADO</string>
-    <string name="rectangulo">Rectangulo</string>
-    <string name="triangulo">Triangulo</string>
-    <string name="circulo">Círculo</string>
+    <string name="rectangulo">RECTANGULO</string>
+    <string name="triangulo">TRIANGULO</string>
+    <string name="circulo">CÍRCULO</string>
     <string name="esfera">Esfera</string>
     <string name="cilindro">Cilindro</string>
     <string name="cono">Cono</string>
@@ -19,6 +19,7 @@
     <string name="valorLado">Valor del lado:</string>
     <string name="calcular">CALCULAR</string>
     <string name="borrar">BORRAR</string>
+    <string name="valorRadio">Valor del radio:</string>
     <string-array name="opciones">
         <item>@string/areas</item>
         <item>@string/volumenes</item>
@@ -35,4 +36,18 @@
         <item>@string/cono</item>
         <item>@string/cubo</item>
     </string-array>
+    <string name="areaCuadrado">Área del cuadrado</string>
+    <string name="areaRectangulo">Área del rectangulo</string>
+    <string name="areaCirculo">Área del circulo</string>
+    <string name="areaTriangulo">Área del triangulo</string>
+    <string name="radio2">Radio:</string>
+    <string name="lado2">Lado:</string>
+    <string name="base2">Base:</string>
+    <string name="altura2">Altura:</string>
+    <string name="errorLado">Digite el lado</string>
+    <string name="errorRadio">Digite el radio</string>
+    <string name="valorBase">Valor de la base:</string>
+    <string name="valorAltura">Valor de la altura:</string>
+    <string name="errorBase">Digite la base</string>
+    <string name="errorAltura">Digite la altura</string>
 </resources>

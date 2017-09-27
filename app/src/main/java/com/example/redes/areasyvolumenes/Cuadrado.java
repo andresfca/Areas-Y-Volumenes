@@ -9,7 +9,7 @@ import android.widget.EditText;
 
 public class Cuadrado extends AppCompatActivity {
     private EditText cajaLado;
-    private Intent i;
+    private Intent in;
     private Bundle b;
     private Resources resources;
 
@@ -21,11 +21,11 @@ public class Cuadrado extends AppCompatActivity {
         cajaLado = (EditText)findViewById(R.id.txtLado);
         resources = this.getResources();
 
-        i = new Intent(this,Resultado1.class);
+        in = new Intent(this,Resultado1.class);
         b = new Bundle();
     }
 
-    public void Cuadrado(View v){
+    public void cuadrado(View v){
         String operacion, dato, lad, aux="";
         int lad2;
 
@@ -33,23 +33,23 @@ public class Cuadrado extends AppCompatActivity {
             lad = cajaLado.getText().toString();
             lad2 = Integer.parseInt(lad);
 
-            operacion = "Area del Cuadrado";
-            dato = "Lado: " + lad2;
+            operacion = resources.getString(R.string.areaCuadrado);
+            dato = resources.getString(R.string.lado2)+" " + lad2;
 
             lad2 = lad2*lad2;
             aux = aux+lad2+" mts²";
 
             b.putString("ResultadoCuadrado", aux);
-            i.putExtras(b);
+            in.putExtras(b);
             Operacion o = new Operacion(operacion,dato,aux);
             o.guardar();
-            startActivity(i);
+            startActivity(in);
         }
     }
 
     public boolean validar(){
         if(cajaLado.getText().toString().isEmpty()){
-            cajaLado.setError("Digite el lado");
+            cajaLado.setError(resources.getString(R.string.errorLado));
             return false;
         }
         return true;

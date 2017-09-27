@@ -4,6 +4,10 @@
     android:id="@+id/activity_areas"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="16dp"
     tools:context="com.example.redes.areasyvolumenes.Areas">
 
     <TextView
