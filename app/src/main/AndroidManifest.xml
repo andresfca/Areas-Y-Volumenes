@@ -16,96 +16,112 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Areas"
-            android:parentActivityName=".Principal" >
+        <activity
+            android:name=".Areas"
+            android:parentActivityName=".Principal">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Principal" />
         </activity>
-        <activity android:name=".Volumenes"
-            android:parentActivityName=".Principal" >
-            <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".Principal" />
-        </activity>
-        <activity android:name=".Lista"
-            android:parentActivityName=".Principal" >
+        <activity
+            android:name=".Volumenes"
+            android:parentActivityName=".Principal">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Principal" />
         </activity>
-        <activity android:name=".Cuadrado"
-                android:parentActivityName=".Areas" >
+        <activity
+            android:name=".Lista"
+            android:parentActivityName=".Principal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Principal" />
+        </activity>
+        <activity
+            android:name=".Cuadrado"
+            android:parentActivityName=".Areas">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Areas" />
         </activity>
-        <activity android:name=".Circulo"
-            android:parentActivityName=".Areas" >
+        <activity
+            android:name=".Circulo"
+            android:parentActivityName=".Areas">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Areas" />
         </activity>
-        <activity android:name=".Triangulo"
-            android:parentActivityName=".Areas" >
+        <activity
+            android:name=".Triangulo"
+            android:parentActivityName=".Areas">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Areas" />
         </activity>
-        <activity android:name=".Rectangulo"
-            android:parentActivityName=".Areas" >
+        <activity
+            android:name=".Rectangulo"
+            android:parentActivityName=".Areas">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Areas" />
         </activity>
-        <activity android:name=".Esfera"
-            android:parentActivityName=".Volumenes" >
+        <activity
+            android:name=".Esfera"
+            android:parentActivityName=".Volumenes">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Volumenes" />
         </activity>
-        <activity android:name=".Cilindro"
-            android:parentActivityName=".Volumenes" >
+        <activity
+            android:name=".Cilindro"
+            android:parentActivityName=".Volumenes">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Volumenes" />
         </activity>
-        <activity android:name=".Cono"
-            android:parentActivityName=".Volumenes" >
+        <activity
+            android:name=".Cono"
+            android:parentActivityName=".Volumenes">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Volumenes" />
         </activity>
-        <activity android:name=".Cubo"
-            android:parentActivityName=".Volumenes" >
+        <activity
+            android:name=".Cubo"
+            android:parentActivityName=".Volumenes">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Volumenes" />
         </activity>
-        <activity android:name=".Resultado1"
-            android:parentActivityName=".Cuadrado" >
+        <activity
+            android:name=".Resultado1"
+            android:parentActivityName=".Cuadrado">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Cuadrado" />
         </activity>
-        <activity android:name=".Resultado2"
-            android:parentActivityName=".Rectangulo" >
+        <activity
+            android:name=".Resultado2"
+            android:parentActivityName=".Rectangulo">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Rectangulo" />
         </activity>
-        <activity android:name=".Resultado3"
-            android:parentActivityName=".Triangulo" >
+        <activity
+            android:name=".Resultado3"
+            android:parentActivityName=".Triangulo">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Triangulo" />
         </activity>
-        <activity android:name=".Resultado4"
-            android:parentActivityName=".Circulo" >
+        <activity
+            android:name=".Resultado4"
+            android:parentActivityName=".Circulo">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Circulo" />
         </activity>
+        <activity android:name=".Resultado5"></activity>
     </application>
 
 </manifest>
