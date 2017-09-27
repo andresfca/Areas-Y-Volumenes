@@ -2,6 +2,7 @@ package com.example.redes.areasyvolumenes;
 
 import android.content.Intent;
 import android.content.res.Resources;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -18,6 +19,9 @@ public class Circulo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_circulo);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
         cajaRadio = (EditText)findViewById(R.id.txtRadio);
         resources = this.getResources();

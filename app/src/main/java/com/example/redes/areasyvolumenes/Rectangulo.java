@@ -2,6 +2,7 @@ package com.example.redes.areasyvolumenes;
 
 import android.content.Intent;
 import android.content.res.Resources;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -17,6 +18,10 @@ public class Rectangulo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rectangulo);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
+
         cajaLado = (EditText)findViewById(R.id.txtLadoRec);
         resources = this.getResources();
 

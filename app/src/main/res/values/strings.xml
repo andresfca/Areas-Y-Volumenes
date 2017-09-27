@@ -23,6 +23,7 @@
     <string-array name="opciones">
         <item>@string/areas</item>
         <item>@string/volumenes</item>
+        <item>@string/operacionesRealizadas</item>
     </string-array>
     <string-array name="areas">
         <item>@string/cuadrado</item>
@@ -50,4 +51,8 @@
     <string name="valorAltura">Valor de la altura:</string>
     <string name="errorBase">Digite la base</string>
     <string name="errorAltura">Digite la altura</string>
+    <string name="area">Área:</string>
+    <string name="result">Resultado</string>
+    <string name="VOLVER" />
+    <string name="volver">VOLVER</string>
 </resources>

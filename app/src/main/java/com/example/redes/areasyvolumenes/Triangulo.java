@@ -2,6 +2,7 @@ package com.example.redes.areasyvolumenes;
 
 import android.content.Intent;
 import android.content.res.Resources;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -17,6 +18,10 @@ public class Triangulo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_triangulo);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
+
         cajaBase = (EditText)findViewById(R.id.txtBase);
         cajaAltura = (EditText)findViewById(R.id.txtAltura);
         resources = this.getResources();
@@ -25,7 +30,7 @@ public class Triangulo extends AppCompatActivity {
         b = new Bundle();
     }
     public void triangulo(View v){
-        String operacion, dato,dato2, bas,alt, aux="";
+        String operacion, dato, bas,alt, aux="";
         int bas2,alt2,res;
 
         if(validar()){
@@ -35,15 +40,14 @@ public class Triangulo extends AppCompatActivity {
             alt2 = Integer.parseInt(alt);
 
             operacion = resources.getString(R.string.areaTriangulo);
-            dato = resources.getString(R.string.base2)+" " + bas2;
-            dato2 = resources.getString(R.string.altura2)+" " + alt2;
+            dato = resources.getString(R.string.base2)+" "+ bas2 + "\n"+resources.getString(R.string.altura2)+" " + alt2;
 
              res= (bas2*alt2)/2;
             aux = aux+res+" mts²";
 
             b.putString("ResultadoTriangulo", aux);
             in.putExtras(b);
-            Operacion1 o = new Operacion1(operacion,dato,dato2,aux);
+            Operacion o = new Operacion(operacion,dato,aux);
             o.guardar();
             startActivity(in);
         }

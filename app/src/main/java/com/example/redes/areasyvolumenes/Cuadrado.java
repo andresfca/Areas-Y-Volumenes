@@ -2,8 +2,11 @@ package com.example.redes.areasyvolumenes;
 
 import android.content.Intent;
 import android.content.res.Resources;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
@@ -17,6 +20,9 @@ public class Cuadrado extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cuadrado);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
 
         cajaLado = (EditText)findViewById(R.id.txtLado);
         resources = this.getResources();
