@@ -26,7 +26,7 @@ public class Circulo extends AppCompatActivity {
         cajaRadio = (EditText)findViewById(R.id.txtRadio);
         resources = this.getResources();
 
-        in = new Intent(this,Resultado2.class);
+        in = new Intent(this,Resultado4.class);
         b = new Bundle();
     }
     public void circulo(View v){

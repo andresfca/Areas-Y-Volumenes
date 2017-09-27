@@ -36,20 +36,6 @@ public class Resultado1 extends AppCompatActivity {
         aux = resources.getString(R.string.area)+" "+resultado;
 
         enviado.setText(aux);
-
-
-      /*  AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle(resources.getString(R.string.result));
-        builder.setMessage(aux)
-                .setCancelable(false)
-                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        in = new Intent(Resultado1.this, Cuadrado.class);
-                        startActivity(in);
-                    }
-                });
-        AlertDialog alert = builder.create();
-        alert.show();*/
     }
 
 

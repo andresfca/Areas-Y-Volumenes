@@ -26,7 +26,7 @@ public class Triangulo extends AppCompatActivity {
         cajaAltura = (EditText)findViewById(R.id.txtAltura);
         resources = this.getResources();
 
-        in = new Intent(this,Resultado1.class);
+        in = new Intent(this,Resultado3.class);
         b = new Bundle();
     }
     public void triangulo(View v){

@@ -25,7 +25,7 @@ public class Rectangulo extends AppCompatActivity {
         cajaLado = (EditText)findViewById(R.id.txtLadoRec);
         resources = this.getResources();
 
-        in = new Intent(this,Resultado1.class);
+        in = new Intent(this,Resultado2.class);
         b = new Bundle();
     }
     public void rectangulo(View v){
