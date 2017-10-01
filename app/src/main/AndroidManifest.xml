@@ -121,10 +121,31 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Circulo" />
         </activity>
-        <activity android:name=".Resultado5" />
-        <activity android:name=".Resultado6" />
-        <activity android:name=".Resultado7" />
-        <activity android:name=".Resultado8"></activity>
+        <activity
+            android:name=".Resultado5"
+            android:parentActivityName=".Esfera">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Esfera" />
+        </activity>
+        <activity android:name=".Resultado6"
+            android:parentActivityName=".Cilindro">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Cilindro" />
+        </activity>
+        <activity android:name=".Resultado7"
+            android:parentActivityName=".Cono">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Cono" />
+        </activity>
+        <activity android:name=".Resultado8"
+            android:parentActivityName=".Cubo">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Cubo" />
+        </activity>
     </application>
 
 </manifest>

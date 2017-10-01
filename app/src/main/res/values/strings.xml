@@ -57,10 +57,10 @@
     <string name="valorAltura">Valor de la altura:</string>
     <string name="errorBase">Digite la base</string>
     <string name="errorAltura">Digite la altura</string>
+    <string name="errorCero">Digite un número diferente de 0</string>
     <string name="area">Área:</string>
     <string name="volumen">Volumen:</string>
     <string name="result">Resultado</string>
-    <string name="VOLVER" />
     <string name="volver">VOLVER</string>
     <string name="valorArista">Valor de la arista:</string>
 </resources>

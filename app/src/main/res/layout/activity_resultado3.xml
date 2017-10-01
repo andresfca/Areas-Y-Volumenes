@@ -8,7 +8,7 @@
     android:paddingLeft="15dp"
     android:paddingRight="15dp"
     android:paddingTop="16dp"
-    tools:context="com.example.redes.areasyvolumenes.Lista">
+    tools:context="com.example.redes.areasyvolumenes.Resultado3">
 
 
     <LinearLayout

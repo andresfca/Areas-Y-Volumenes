@@ -55,6 +55,10 @@ public class Cubo extends AppCompatActivity {
             cajaArista.setError(resources.getString(R.string.errorArista));
             return false;
         }
+        if(cajaArista.getText().toString().equalsIgnoreCase("0")){
+            cajaArista.setError(resources.getString(R.string.errorCero));
+            return false;
+        }
         return true;
     }
 

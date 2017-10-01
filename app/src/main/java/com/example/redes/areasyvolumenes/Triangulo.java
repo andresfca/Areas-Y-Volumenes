@@ -61,6 +61,14 @@ public class Triangulo extends AppCompatActivity {
             cajaAltura.setError(resources.getString(R.string.errorAltura));
             return false;
         }
+        if(cajaBase.getText().toString().equalsIgnoreCase("0")){
+            cajaBase.setError(resources.getString(R.string.errorCero));
+            return false;
+        }
+        if(cajaAltura.getText().toString().equalsIgnoreCase("0")){
+            cajaAltura.setError(resources.getString(R.string.errorCero));
+            return false;
+        }
         return true;
     }
     public void borrar1(View v){

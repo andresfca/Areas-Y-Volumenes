@@ -56,12 +56,20 @@ public class Cono extends AppCompatActivity {
     }
 
     public boolean validar(){
+        if(cajaAltura.getText().toString().isEmpty()){
+            cajaAltura.setError(resources.getString(R.string.errorAltura));
+            return false;
+        }
         if(cajaRadio.getText().toString().isEmpty()){
             cajaRadio.setError(resources.getString(R.string.errorRadio));
             return false;
         }
-        if(cajaAltura.getText().toString().isEmpty()){
-            cajaAltura.setError(resources.getString(R.string.errorAltura));
+        if(cajaAltura.getText().toString().equalsIgnoreCase("0")){
+            cajaAltura.setError(resources.getString(R.string.errorCero));
+            return false;
+        }
+        if(cajaRadio.getText().toString().equalsIgnoreCase("0")){
+            cajaRadio.setError(resources.getString(R.string.errorCero));
             return false;
         }
         return true;

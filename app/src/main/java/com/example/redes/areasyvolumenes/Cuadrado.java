@@ -58,6 +58,10 @@ public class Cuadrado extends AppCompatActivity {
             cajaLado.setError(resources.getString(R.string.errorLado));
             return false;
         }
+        if(cajaLado.getText().toString().equalsIgnoreCase("0")){
+            cajaLado.setError(resources.getString(R.string.errorCero));
+            return false;
+        }
         return true;
     }
 

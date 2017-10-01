@@ -57,6 +57,10 @@ public class Circulo extends AppCompatActivity {
             cajaRadio.setError(resources.getString(R.string.errorRadio));
             return false;
         }
+        if (cajaRadio.getText().toString().equalsIgnoreCase("0")){
+            cajaRadio.setError(resources.getString(R.string.errorCero));
+            return false;
+        }
         return true;
     }
 
